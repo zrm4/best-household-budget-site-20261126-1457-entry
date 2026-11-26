@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hearth Ledger</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <svg class="brand-icon" aria-hidden="true" viewBox="0 0 32 32" width="32" height="32">
+        <path fill="#2f5d50" d="M16 2L4 8v16l12 6 12-6V8L16 2zm0 2.5L25.5 9 16 14.5 6.5 9 16 4.5z"/>
+        <path fill="#c96f4a" d="M16 14.5L6.5 19v10l9.5-5 9.5 5V19L16 14.5z"/>
+      </svg>
+      <div class="brand-text">
+        <h1>Hearth Ledger</h1>
+        <p class="tagline">Your home's money, in one warm view.</p>
+      </div>
+    </div>
+    <nav class="main-nav" aria-label="Main navigation">
+      <a href="#/" class="nav-link" data-view="dashboard">Dashboard</a>
+      <a href="#/transactions" class="nav-link" data-view="transactions">Transactions</a>
+      <a href="#/budgets" class="nav-link" data-view="budgets">Budgets</a>
+      <a href="#/goals" class="nav-link" data-view="goals">Goals</a>
+      <a href="#/reports" class="nav-link" data-view="reports">Reports</a>
+    </nav>
+  </header>
+
+  <main id="view" role="main"></main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Hearth Ledger. A household budget tool.</p>
+  </footer>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
